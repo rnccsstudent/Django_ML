@@ -1,0 +1,25 @@
+pip freeze
+pip install django
+pip install psycopg2
+pip install psycopg2-binary
+pip install -r requirements.txt
+pip install scikit-learn==0.21.3
+django-admin
+django-admin startproject pranab    
+
+for project stop-----
+ctrl+c
+for port change-----
+python manage.py runserver 4444
+
+vs code extension
+python,Django,Django Snippets,Django Template
+
+check if PostgreSQL is installed:
+psql --version
+
+For creating the database of PostgreSQL
+psql -U your_databasea_user -c "CREATE DATABASE your_database_name;"
+python manage.py makemigrations
+python manage.py migrate
+python manage.py runserver
